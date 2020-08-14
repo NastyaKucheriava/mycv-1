@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'education';
+  src:
+          url('../fonts/education.ttf?cy2olj') format('truetype'),
+          url('../fonts/education.woff?cy2olj') format('woff'),
+          url('../fonts/education.svg?cy2olj#education') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'education' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ed-vk:before {
+  content: "\e900";
+}
+.ed-fb:before {
+  content: "\e901";
+}
+.ed-tl:before {
+  content: "\e902";
+}
+.ed-in:before {
+  content: "\e903";
+}
+.ed-be:before {
+  content: "\e904";
+}
+.ed-tw:before {
+  content: "\e905";
+}
+
+
+/*main style*/
+html body{
+  font-family: 'Nunito', sans-serif;
+}
+.wrap{
+  width: 100%;
+  max-width: 1100px;
+
+  /*height: 200px;*/
+  /*background: red;*/
+  margin: 0 auto 30px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 0 120px;
+}
+
+.l-menu ul, .r-menu ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.l-menu ul li {
+  margin-right: 73px;
+}
+
+.l-menu ul li:last-child {
+  margin-right: 0;
+}
+
+.r-menu ul li {
+  margin-left: 73px;
+}
+
+.r-menu ul li:first-child {
+  margin-left: 0;
+}
+
+.l-menu ul li a, .r-menu ul li a {
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  color: #007FFF;
+  text-decoration: none;
+}
